@@ -1,4 +1,4 @@
-package com.flowsns.flow.emulator;
+package com.flowsns.flow.emulator.lib;
 
 import android.app.Service;
 import android.content.ComponentName;
@@ -9,8 +9,9 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.flowsns.flow.emulator.jni.EmulatorCheckService;
-import com.flowsns.flow.emulator.utils.EmulatorDetectUtils;
+import com.flowsns.flow.emulator.IEmulatorCheck;
+import com.flowsns.flow.emulator.lib.jni.EmulatorCheckService;
+import com.flowsns.flow.emulator.lib.utils.EmulatorDetectUtils;
 
 /**
  * 模拟器检查管理类

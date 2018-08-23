@@ -1,4 +1,4 @@
-package com.flowsns.flow.emulator.utils;
+package com.flowsns.flow.emulator.lib.utils;
 
 import android.content.Context;
 import android.os.IBinder;

@@ -1,4 +1,4 @@
-package com.flowsns.flow.emulator;
+package com.flowsns.flow.emulator.lib;
 
 import android.app.ActivityManager;
 import android.content.Context;

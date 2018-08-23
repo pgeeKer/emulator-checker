@@ -1,4 +1,4 @@
-package com.flowsns.flow.emulator.jni;
+package com.flowsns.flow.emulator.lib.jni;
 
 import android.app.Service;
 import android.content.Intent;

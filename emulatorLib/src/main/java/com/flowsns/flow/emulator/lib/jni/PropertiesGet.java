@@ -1,7 +1,8 @@
-package com.flowsns.flow.emulator.jni;
+package com.flowsns.flow.emulator.lib.jni;
 
 import android.text.TextUtils;
-import com.flowsns.flow.emulator.ShellAdbUtils;
+
+import com.flowsns.flow.emulator.lib.ShellAdbUtils;
 
 /**
  * C 代码获取设备的信息，避免 hook

@@ -5,9 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.flowsns.flow.emulator.EmulatorDetectManager;
-import com.flowsns.flow.emulator.IEmulatorDetectListener;
 import com.flowsns.flow.emulator.R;
+import com.flowsns.flow.emulator.lib.EmulatorDetectManager;
+import com.flowsns.flow.emulator.lib.IEmulatorDetectListener;
 
 public class MainActivity extends AppCompatActivity {
 

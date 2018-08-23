@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH" />
 
     <application
-        android:name=".EmulatorCheckApplication"
+        android:name=".lib.EmulatorCheckApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -26,7 +26,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".jni.EmulatorCheckService"
+            android:name=".lib.jni.EmulatorCheckService"
             android:process=":EmulatorCheckService"
             />
     </application>
